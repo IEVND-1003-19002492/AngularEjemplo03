@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularEjemplo_03';
+    title='AngularEjemplo_03';
+    duplicaValor(valo:number):number{
+      return valo*2;
+    }
+    pelicula={
+      titulo:'Spiderman',
+      fechaLanzamiento:new Date(),
+    }
 }
+
+
